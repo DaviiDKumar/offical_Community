@@ -18,25 +18,10 @@ const LandingPage = ({ onJoin }) => {
         </div>
 
         {/* Heading */}
-        <h1 className="text-2xl font-black text-slate-900 mb-2 uppercase tracking-tight">
-          COLOUR GAME
-        </h1>
-        <p className="text-slate-500 font-bold text-[10px] mb-8 uppercase tracking-[0.3em]">
-          Official Player Group
-        </p>
+       
 
         {/* Simple Points */}
-        <div className="space-y-3 mb-8 text-left">
-          <div className="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-100/50">
-            <span className="text-blue-600 font-bold text-lg">✓</span>
-            <p className="text-slate-700 text-sm font-semibold">Get Daily Game Updates</p>
-          </div>
-          <div className="flex items-center gap-3 p-4 bg-slate-50 rounded-2xl border border-slate-100/50">
-            <span className="text-blue-600 font-bold text-lg">✓</span>
-            <p className="text-slate-700 text-sm font-semibold">Join 50,000+ Members</p>
-          </div>
-        </div>
-
+       
         {/* Main Action Button */}
         <motion.button
           onClick={onJoin}
